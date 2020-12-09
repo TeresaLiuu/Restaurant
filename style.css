@@ -88,3 +88,24 @@ table {
 .banner img{
     max-width: 100%;
 }
+
+.bannerIntro{
+    position: absolute;
+    color:white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.35);
+    text-align: center;
+    padding:28px;
+}
+
+.bannerIntro h2{
+    font-size: 34px;
+    padding: 20px 42px 16px 22px;
+}
+
+.bannerIntro p{
+    font-size: 20px;
+    line-height: 32px;
+}
