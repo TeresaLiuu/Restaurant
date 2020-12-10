@@ -109,3 +109,29 @@ table {
     font-size: 20px;
     line-height: 32px;
 }
+
+
+.footer{
+    background-color: #efe9e7;
+    display: flex;
+    justify-content: space-around;
+    color:#391F0C;
+}
+
+.footer li{
+    max-width: 34%;
+}
+
+.footer h2{
+    font-size: 32px;
+}
+
+.footer p, .footer ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact{
+    display:flex;
+}
+
