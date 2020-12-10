@@ -85,6 +85,10 @@ table {
     padding-right: 30px;
 }
 
+.banner{
+    display: flex;
+}
+
 .banner img{
     max-width: 100%;
 }
@@ -110,12 +114,82 @@ table {
     line-height: 32px;
 }
 
+.content{
+    background-color:#efe9e7;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    background-color: #efe9e7;
+    justify-content: center;  
+}
+
+.feature h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.featureList{
+    display: flex;
+    justify-content: center;
+    padding:20px 60px;
+}
+
+.featureList li{
+    max-width: 34%;
+    text-align: center;
+    padding: 20px;
+}
+
+.featureList img{
+    border-radius: 100%;   
+}
+
+.featureList h3{
+    font-size: 24px;
+    padding:20px 0;
+}
+
+.featureList li p{
+    text-align: start;
+}
+
+.chef{
+    display: flex;
+    background-color: #6B2402 ;
+}
+
+.chef img{
+    padding-left:42px;
+}
+
+.chefInfo{
+    margin:80px 20px;
+    color:white;
+}
+
+.chefInfo h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.chefInfo p{
+    line-height: 20px;
+}
+
+
+
+
+
+
 
 .footer{
     background-color: #efe9e7;
     display: flex;
     justify-content: space-around;
     color:#391F0C;
+    padding-top: 20px;
 }
 
 .footer li{
@@ -132,6 +206,15 @@ table {
 }
 
 .contact{
-    display:flex;
+    list-style: disc;
+    padding-left: 20px;
 }
 
+.social{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.social li{
+    padding:8px;
+}
