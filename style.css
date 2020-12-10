@@ -41,9 +41,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* css reset end */
 
+/* header start */
 .container{
     max-width: 1024px;
     margin:0 auto;
@@ -61,7 +61,6 @@ table {
     right: 0;
     left: 0;
 }
-
 
 .navbar h1{
     font-size: 24px;
@@ -113,21 +112,25 @@ table {
     font-size: 20px;
     line-height: 32px;
 }
+/* reservation end */
 
 .content{
     background-color:#efe9e7;
 }
 
+/* feature start */
 .feature{
     display: flex;
     flex-direction: column;
     background-color: #efe9e7;
     justify-content: center;  
+    color:#321D12 ;
 }
 
 .feature h2{
     text-align: center;
     padding-top: 20px;
+    line-height: 20px;
 }
 
 .featureList{
@@ -154,7 +157,9 @@ table {
 .featureList li p{
     text-align: start;
 }
+/* feature end */
 
+/* chef start */
 .chef{
     display: flex;
     background-color: #6B2402 ;
@@ -171,19 +176,89 @@ table {
 
 .chefInfo h3{
     font-size: 32px;
+    padding-bottom: 5px;
+}
+
+.chefInfo h4{
     margin-bottom: 20px;
+    font-size: 18px;
 }
 
 .chefInfo p{
-    line-height: 20px;
+    line-height: 25px;
+    font-size: 18px;
+}
+/* chef end */
+
+/* feedback start */
+.feedback{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:#321D12 ;
+    padding: 50px 0;
+}
+
+.feedback h2{
+    padding-bottom:28px;
+    font-size: 32px;
+}
+
+.feedbackList{
+    display: flex;
+    text-align: start;
+    justify-content: center;
+}
+
+.feedbackList li{
+    display: flex;
+    align-items: flex-start;
+    padding: 0 10px;
+    width: 30%;
+}
+
+.feedbackList img{
+    border-radius: 100%;
+}
+
+.comment{
+    padding-left:10px;
+}
+
+.comment p:nth-child(1){
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.comment p:nth-child(2){
+    margin-top:20px;
+    line-height: 18px;
+    font-size: 22px;
+}
+
+.comment p:nth-child(3){
+    margin-top:10px;
+    text-align: end;
+    font-size: 22px;
+}
+/* feedback end */
+
+/* reservation start */
+.reservation{
+    background-color: #F8F6F5 ;
+}
+
+.mapItem{
+    display: flex;
 }
 
 
 
 
+/* reservation end */
 
 
-
+/* footer start */
 .footer{
     background-color: #efe9e7;
     display: flex;
@@ -218,3 +293,5 @@ table {
 .social li{
     padding:8px;
 }
+
+/* footer end */
