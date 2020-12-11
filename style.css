@@ -56,7 +56,7 @@ table {
 .navbar{
     display: flex;
     justify-content: space-between;
-    background: -webkit-linear-gradient(rgb(19, 18, 18) , rgba(18,18,18,.4));
+    background-color: rgba(0, 0, 0, 0.4);
     position: absolute;
     right: 0;
     left: 0;
@@ -128,19 +128,39 @@ table {
 }
 
 .feature h2{
-    text-align: center;
-    padding-top: 20px;
-    line-height: 20px;
+    margin:20px auto;
+    font-size: 28px;
+    position: relative;
+}
+
+.feature h2:before{
+    content:"";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background-color:#BCB5AF;
+    position: absolute;
+    left:-38%;
+    top:50%;
+}
+
+.feature h2:after{
+    content:"";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background-color: #BCB5AF;
+    position: absolute;
+    right:-38%;
+    top:50%;
 }
 
 .featureList{
     display: flex;
-    justify-content: center;
     padding:20px 60px;
 }
 
 .featureList li{
-    max-width: 34%;
     text-align: center;
     padding: 20px;
 }
@@ -151,11 +171,13 @@ table {
 
 .featureList h3{
     font-size: 24px;
-    padding:20px 0;
+    padding:18px 0;
 }
 
 .featureList li p{
     text-align: start;
+    line-height: 18px;
+    padding:10px 0;
 }
 /* feature end */
 
@@ -231,15 +253,15 @@ table {
 }
 
 .comment p:nth-child(2){
-    margin-top:20px;
-    line-height: 18px;
-    font-size: 22px;
+    margin: 26px 0;
+    line-height: 22px;
+    font-size: 20px;
 }
 
 .comment p:nth-child(3){
     margin-top:10px;
     text-align: end;
-    font-size: 22px;
+    font-size: 20px;
 }
 /* feedback end */
 
