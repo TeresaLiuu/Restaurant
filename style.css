@@ -248,10 +248,74 @@ table {
     background-color: #F8F6F5 ;
 }
 
+.reservation p{
+    text-align: center;
+    padding:30px 0;
+    font-size: 32px;
+    color: #321D12;
+}
+
 .mapItem{
     display: flex;
 }
 
+.map{
+    margin-left:42px;
+    margin-bottom: 50px;
+}
+
+.form{
+    width: 50%;
+    margin-left:20px;
+}
+
+.form label{
+    font-size: 18px;
+    color:#321D12;
+}
+
+.form input{
+    width:90%;
+    margin:10px 0;
+    border-radius: 3px;
+    border: 1px solid #D2D1D1;
+    height:25px;
+}
+
+.radio{
+    display: flex;
+    justify-content: flex-start;
+    max-width: 20%;
+    margin-top: 10px;
+}
+
+input[type="radio"]{
+    margin: 0;
+    height: auto;
+}
+
+.buttons{
+    width:90%;
+    text-align: end;
+    margin-top:60px;
+}
+
+.buttons button{
+    border:0;
+    border-radius: 3px;
+    font-size: 12px;
+    padding:6px 0;
+    width: 70px;
+    height: 32px;
+}
+
+.buttons button[type="reset"]{
+    background-color: #DAD4D1;
+}
+
+.buttons button[type="submit"]{
+    background-color:#FD8215;   
+}
 
 
 

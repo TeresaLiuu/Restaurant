@@ -103,16 +103,31 @@
             </div>
 
             <div class="reservation">
-                <p>We don't have enough seats <br>Would you like to make a reservation?</p>
+                <p>Reservation</p>
                 <div class="mapItem">
                     <div class="map">
                         <img src="./assets/Map.png" alt="map">
                     </div>
-                    <form action="">
-                        <label for="fname">First name:</label><br>
-                        <input type="text" id="fname" name="fname"><br>
-                        <label for="lname">Last name:</label><br>
-                        <input type="text" id="lname" name="lname">
+                    <form class="form">
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" placeholder="Max Lee"><br>
+                        <label for="tel">Tel:</label><br>
+                        <input type="tel" id="tel" name="tel" placeholder="091234567"><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com"><br>
+                        <label for="count">Number of people:</label><br>
+                        <input type="number" id="count" name="count"><br>
+                        <label for="radio">Vegetarian:</label><br>
+                        <div class="radio">
+                            <label for="radio">Yes</label>
+                            <input type="radio" id="radio" name="radio" value="yes">
+                            <label for="radio">No</label>
+                            <input type="radio" id="radio" name="radio" value="no">
+                        </div>
+                        <div class="buttons">
+                            <button type="reset">Cancel</button>
+                            <button type="submit">Submit</button>
+                        </div>
                     </form>
                 </div>
 
